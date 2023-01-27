@@ -139,7 +139,7 @@
 }
 
 .ex-13-button:hover .ex-13-top-white{
-    animation: spazio_sx_loop 5s;
+    animation: spazio_sx_loop 4s;
     animation-iteration-count: infinite;
 }
 
@@ -158,27 +158,46 @@
     }
     75% {
         margin-top: 70px;
-        
+        margin-left: -40px;
+    }
+    90% {
+        margin-left: -40px;
+        margin-top: 0;
     }
     100% {
-        margin-left: 0px;
+        margin: 0;
     }
 }
 
 
 .ex-13-button:hover .ex-13-bottom-white{
-    animation: spazio_dx_loop 5s;
+    animation: spazio_dx_loop 4s;
     animation-iteration-count: infinite;
 }
 
-@keyframes spazio_d_loop{
+@keyframes spazio_dx_loop{
     0% {
-        margin: 0;
+        bottom: -10px;
+        right: 20%;
+    }
+    25% {
+        bottom: -10px;
+        right: 80%;
     }
     50% {
-        margin-right: 80px;
+        bottom: 50px;
+        right: 80%;
+    }
+    75% {
+        bottom: 50px;
+        right: -30px;
+    }
+    90% {
+        bottom: -10px;
+        right: -30px;
     }
     100% {
-        margin-right: 0px;
+        bottom: -10px;
+        right: 20%;
     }
 }

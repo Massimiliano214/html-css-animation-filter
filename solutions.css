@@ -62,3 +62,13 @@
     filter: sepia(1) invert(75%);
     border-radius: 30px;
 }
+
+.ex-9-img {
+    transition: all 4s;
+}
+
+.ex-9-img:hover {
+    filter: contrast(300%) brightness(50%);
+    border-radius: 30px;
+    transform: scale(1.5);
+}

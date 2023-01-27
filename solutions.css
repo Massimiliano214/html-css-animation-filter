@@ -103,3 +103,37 @@
         transform: rotate(0deg);
     }
 }
+
+.ex-12-button:hover .ex-12-top-white{
+    animation: spazio_sx 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spazio_sx{
+    0% {
+        margin: 0;
+    }
+    50% {
+        margin-left: 100px;
+    }
+    100% {
+        margin-left: 0px;
+    }
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: spazio_dx 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spazio_dx{
+    0% {
+        margin: 0;
+    }
+    50% {
+        margin-right: 80px;
+    }
+    100% {
+        margin-right: 0px;
+    }
+}

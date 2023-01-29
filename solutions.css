@@ -145,7 +145,7 @@
 }
 
 .ex-13-button:hover .ex-13-top-white{
-    animation: spazio_sx_loop 4s;
+    animation: spazio_sx_loop 2s;
     animation-iteration-count: infinite;
 }
 
@@ -179,7 +179,7 @@
 
 
 .ex-13-button:hover .ex-13-bottom-white{
-    animation: spazio_dx_loop 4s;
+    animation: spazio_dx_loop 2s;
     animation-iteration-count: infinite;
 }
 

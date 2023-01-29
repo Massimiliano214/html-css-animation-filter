@@ -105,36 +105,42 @@
 }
 
 .ex-12-button:hover .ex-12-top-white{
-    animation: spazio_sx 5s;
+    animation: spazio_sx 2s;
     animation-iteration-count: infinite;
 }
 
 @keyframes spazio_sx{
     0% {
-        margin: 0;
+        top: -10px;
+        left: 10%;
     }
     50% {
-        margin-left: 100px;
+        top: -10px;
+        left: 65%;
     }
     100% {
-        margin-left: 0px;
+        top: -10px;
+        left: 10%;
     }
 }
 
 .ex-12-button:hover .ex-12-bottom-white{
-    animation: spazio_dx 5s;
+    animation: spazio_dx 2s;
     animation-iteration-count: infinite;
 }
 
 @keyframes spazio_dx{
     0% {
-        margin: 0;
+        bottom: -10px;
+        right: 20%;
     }
     50% {
-        margin-right: 80px;
+        bottom: -10px;
+        right: 65%;
     }
     100% {
-        margin-right: 0px;
+        bottom: -10px;
+        right: 20%;
     }
 }
 
@@ -145,28 +151,30 @@
 
 @keyframes spazio_sx_loop{
     0% {
-        margin: 0;
+        top: -10px;
+        left: 10%;
     }
     25% {
-        margin-left: 160px;
-        margin-top: 0px;
+        left: 90%;
+        top: -10px;
     }
     50% {
-        margin-top: 70px;
-        margin-left: 160px;
-        
+        top: 60px;
+        left: 90%;
     }
     75% {
-        margin-top: 70px;
-        margin-left: -40px;
+        top: 60px;
+        left: -12%;
     }
     90% {
-        margin-left: -40px;
-        margin-top: 0;
+        left: -12%;
+        margin-top: -10px;
     }
     100% {
-        margin: 0;
+        top: -10px;
+        left: 10%;
     }
+    
 }
 
 
